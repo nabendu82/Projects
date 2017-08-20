@@ -1,0 +1,32 @@
+body{
+	background: #fff;
+	margin: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.test{
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+	height: 250px;
+	width: 250px;
+	background: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.test:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 2em #ccc;
+	/*transform: rotateY(180deg);*/
+
+
+}
+
+.image{
+	width: 250px;
+	height: 250px;
+	/*background: url(myPic.jpg);*/
+}

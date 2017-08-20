@@ -1,0 +1,85 @@
+body{
+	margin: auto;
+	/*margin: 50px 10px 10px 50px;*/
+}
+
+
+#main{
+	width: 300px;
+	height: 800px;
+
+}
+
+
+/*input[type="radio"] {
+  margin-left: -3px;
+  margin-right: 0;
+  padding-left: 0;
+}*/
+
+
+p{
+	color: #ccc;
+	font-size: 0.75em;
+}
+#title{
+	background: #3B5998;
+	/*border-radius: 6px;*/
+	color: #fff;
+	display: block;
+	/*font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;*/
+	padding: 10px 10px;
+	text-align: left;
+  	margin: 0 0 5px 0;
+
+}
+
+
+
+#signup{
+	
+	display: inline-block;
+	height: 10px;
+	padding: 0 0 0 0;
+	text-align: left;
+	margin-left: 2px;
+}
+
+
+form{
+	background: #E8EAF3;
+
+}
+
+#nameID, #surname, #emailID, #gender, #password{
+	width: 90%;
+}
+
+#bd{
+	
+	margin-left: 10px;
+}
+
+#button{
+	width: 120px;
+	background: #3B5998;
+	color: #fff;
+}
+
+/*.pseudo{
+	height: 500px;
+	width: 500px;
+	background: #f00;
+
+}
+
+.pseudo:hover{
+	background: #0f0;
+}*/
+
+
+
+
+
+
+
