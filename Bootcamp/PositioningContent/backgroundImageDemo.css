@@ -1,0 +1,102 @@
+.notice-success {
+  background: #67b11c url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png") 20px 50% no-repeat;
+  background: #67b11c url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_1.svg") 20px 50% no-repeat;
+  border: 2px solid #467813;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 15px 20px 15px 50px;
+}
+
+#gradient{
+	background: #466368;
+	background: linear-gradient(#648880, #293f50);
+	border-radius: 6px;
+	height: 120px;
+}
+
+#directionGradient{
+  background: #466368;
+  background: linear-gradient(to right bottom, #648880, #293f50);
+  border-radius: 6px;
+  height: 120px;
+}
+
+#radialGradient{
+  background: #466368;
+  background: radial-gradient(#648880, #293f50);
+  border-radius: 6px;
+  height: 120px;
+}
+
+#linerGradientMultiple{
+  background: #466368;
+  background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+  border-radius: 6px;
+  height: 120px;
+}
+
+#linerGradientMultipleStopPosition{
+  background: #466368;
+  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+  border-radius: 6px;
+  height: 120px;
+}
+
+.notice-success2{
+    background: #67b11c;
+    background: linear-gradient(#72c41f, #5c9e19);
+    border: 2px solid #467813;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 15px 20px;
+}
+
+.notice-success3 {
+  background: #67b11c;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png") 20px 50% no-repeat, linear-gradient(#72c41f, #5c9e19);
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_1.svg") 20px 50% no-repeat, linear-gradient(#72c41f, #5c9e19);
+  border: 2px solid #467813;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 15px 20px 15px 50px;
+}
+
+#backgroundSize{
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/shay_1.jpg") 0 0 no-repeat;
+  background-size: auto 75%;
+  border: 2px dashed #9799a7;
+  height: 240px;
+  width: 200px;
+}
+
+#backgroundSizeContain{
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/shay_1.jpg") 0 0 no-repeat;
+  background-size: contain;
+  border: 2px dashed #9799a7;
+  height: 240px;
+  width: 200px;
+
+}
+
+#backgroundSizeCover{
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/shay_1.jpg") 0 0 no-repeat;
+  background-size: cover;
+  border: 2px dashed #9799a7;
+  height: 240px;
+  width: 200px;
+
+}
+
+#backgroundClip{
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/shay_1.jpg") 0 0 no-repeat;
+  background-clip: padding-box;
+  background-origin: border-box;
+  border: 2px dashed #9799a7;
+  height: 240px;
+  width: 200px;
+
+}
+

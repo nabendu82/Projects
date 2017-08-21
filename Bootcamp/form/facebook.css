@@ -3,6 +3,15 @@ body{
 	/*margin: 50px 10px 10px 50px;*/
 }
 
+form .radio{
+    display: inline-block;
+    float: left;
+	width: 30px;
+	clear:none
+	margin-right: 4px;
+	padding-right: 5px;
+}
+
 
 #main{
 	width: 300px;
@@ -22,6 +31,7 @@ p{
 	color: #ccc;
 	font-size: 0.75em;
 }
+
 #title{
 	background: #3B5998;
 	/*border-radius: 6px;*/
@@ -30,17 +40,18 @@ p{
 	/*font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;*/
 	padding: 10px 10px;
 	text-align: left;
-  	margin: 0 0 5px 0;
+  	/*margin: 0 0 5px 0;*/
 
 }
 
 
 
+
+
 #signup{
-	
 	display: inline-block;
-	height: 10px;
-	padding: 0 0 0 0;
+	line-height: 0;
+	
 	text-align: left;
 	margin-left: 2px;
 }
