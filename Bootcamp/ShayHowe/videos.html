@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		video {
+		  max-width: 540px;
+		}		
+	</style>
+	<title>Videos Demo</title>
+</head>
+<body>
+	<h2>Video player</h2>
+	<video controls>
+	  <source src="http://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.ogv" type="video/ogg">
+	  <source src="http://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.mp4" type="video/mp4">
+	  Please <a href="http://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.mp4" download>download</a> the video.
+	</video>
+
+	<h2>iframe Controls</h2>
+	<iframe width="420" height="315"
+	src="https://www.youtube.com/embed/XGSy3_Czz8k?controls=0">
+	</iframe>
+
+	<h2>iframe Loop forever</h2>
+	<iframe width="420" height="315"
+	src="https://www.youtube.com/embed/XGSy3_Czz8k?playlist=XGSy3_Czz8k&loop=1">
+	</iframe>
+
+</body>
+</html>

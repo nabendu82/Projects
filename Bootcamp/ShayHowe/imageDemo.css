@@ -1,0 +1,22 @@
+#inline {
+  width: 200px;
+}
+
+#block{
+  display: block;
+  width: 200px;
+}
+
+#float {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: right;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+  width: 200px;
+}
+
+#caption{
+	display: block;
+	max-width: 100%;
+}
