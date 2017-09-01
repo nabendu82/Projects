@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="todoApp"> <!-- To have DOM know it's an angular app -->
+<head>
+	<title>Todo App</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body> 
+<div class="container">
+<div class="page-header text-center">
+  <h1>Todo app <small>Created using AngularJS</small></h1>
+</div>
+
+<div class="jumbotron" style="margin-top: 5%">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+
+			
+			<div ng-controller="TodoCtrl as ctrl">
+				<div>
+					<p>Add a Todo</p>
+					<input type="text" ng-model="ctrl.newTodo">
+					<button type="button" class="btn btn-default" ng-click="ctrl.addNewTodo()">Add</button>
+				</div>
+				<div>
+					<p>Your Todos:</p>
+					<button type="button" class="btn btn-warning" ng-hide="ctrl.editMode" ng-click="ctrl.triggerEditMode()">Edit</button>
+					<button type="button" class="btn btn-info" ng-show="ctrl.editMode" ng-click="ctrl.triggerEditMode()">Done</button>
+					<ul class="list-group">
+					<li type="button" class="list-group-item" ng-repeat="todo in ctrl.todos track by $index">
+						<span ng-hide="ctrl.editMode" ng-bind="todo"></span> 
+						<input ng-model="todo" ng-show="ctrl.editMode" type="text">
+						<button type="button" class="btn btn-danger" ng-hide="ctrl.editMode" ng-click="ctrl.deleteTodo($index)">Delete</button>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4"></div>		
+	</div>
+</div>
+</div>
+</body>
+</html>

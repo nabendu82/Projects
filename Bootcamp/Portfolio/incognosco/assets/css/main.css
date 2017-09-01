@@ -1,0 +1,70 @@
+.img-hero{
+  background: url(../../assets/img/jaaga.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.img-city{
+	background-image: url(../../assets/img/jaaga-startup.jpg);
+	background-size: cover;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #466368;
+    box-shadow: 0 0 10px 1px linear-gradient(to right, #f6f1d3, #648880);
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+
+.programs{
+	background: #466368;
+	background: linear-gradient(to right, #f6f1d3, #648880);
+}
+
+.list-inline{
+	display: inline-block;
+
+}
+
+.blue-shadow {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+.ul-styles {
+  list-style: square;
+  
+}
+
+.vert-text{
+	height:23em;
+}
+
+.vert-img{
+	height:18em;
+}
+
+span.teal {
+    color: #00A9BF;
+}
+
+.curl span {
+    font-family: Lato,sans-serif;
+    font-size: 15em;
+    font-weight: 100;
+}
+
+/* Padding in all sections */
+
+#about,
+#programme,
+#structure,
+#learn,
+#promise {
+    padding: 50px 0;
+    
+}
+
