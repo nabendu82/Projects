@@ -15,3 +15,36 @@ function postForComment(posts, comment) {
 }
 
 postForComment(posts, comment);
+
+//Find the user in the users's array who is an admin. 
+
+var users = [
+  { id: 1, admin: false },
+  { id: 2, admin: false },
+  { id: 3, admin: true }
+];
+
+var admin = users.find(function(user){
+    return user.admin;
+});
+
+console.log(admin);
+
+//Your goal: Write a 'findWhere' function that achieves this shorthand approach.  'findWhere' should return the found object.
+
+function findWhere(array, criteria) {
+    return array.find(function(arr){
+        var search = Object.keys(criteria);
+        return arr[search] == criteria[search];
+    });
+  
+}
+
+var ladders = [
+  { id: 1, height: 20 },
+  { id: 4, height: 18 },
+  { id: 2, height: 20 },
+  { id: 3, height: 25 }
+];
+
+findWhere(ladders, { height: 25 });
